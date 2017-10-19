@@ -1,0 +1,3 @@
+Read me file for ISSAC Python Workshop
+Workshop was organised by ISSAC-KAIST
+It contains all resources such as codes, instruciton etc 
