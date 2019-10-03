@@ -1,7 +1,7 @@
 # Import the modules
 import sys
 import random
-
+#how to improve such if else logic with contineous QA?
 ans = True
 
 while ans:
