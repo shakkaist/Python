@@ -35,3 +35,5 @@ while ans:
     
     elif answers == 8:
         print "My sources say no"
+    else:
+        print "Choice between 1 to 8 "
