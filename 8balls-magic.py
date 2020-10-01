@@ -5,7 +5,7 @@ import random
 ans = True
 
 while ans:
-    question = raw_input("Ask the magic 8 ball a question: (press enter to quit) ")
+    question = raw_input("Ask to the magic 8 ball of a question: (press enter to quit) ")
     
     answers = random.randint(1,8)
     
@@ -19,7 +19,7 @@ while ans:
         print "Outlook good"
     
     elif answers == 3:
-        print "You may rely on it"
+        print "You may reply on it"
     
     elif answers == 4:
         print "Ask again later"
