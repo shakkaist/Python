@@ -1,3 +1,4 @@
+#8ball magic 
 # Import the modules
 import sys
 import random
