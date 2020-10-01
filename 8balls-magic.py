@@ -9,7 +9,7 @@ while ans:
     
     answers = random.randint(1,8)
     
-    if question == "":
+    if not question:
         sys.exit()
     
     elif answers == 1:
