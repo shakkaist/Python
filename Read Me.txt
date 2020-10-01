@@ -1,3 +1,5 @@
 Read me file for ISSAC Python Workshop
 Workshop is organised by ISSAC-KAIST and RNS Solutions
 It contains all resources such as codes, instruciton etc 
+All the readers are welcome for this.
+Reading this may be helpful
