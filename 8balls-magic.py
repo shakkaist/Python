@@ -5,33 +5,13 @@ import random
 ans = True
 
 while ans:
-    question = raw_input("Ask the magic 8 ball a question: (press enter to quit) ")
+    question = input("Ask the magic 8 ball a question: (press enter to quit) ")
+    ansList = ["It is certain","Outlook good","You may rely on it", "Ask again later",
+               "Concentrate and ask again","Reply hazy, try again","My reply is no","My sources say no"]
     
-    answers = random.randint(1,8)
+    answers = random.randint(0,7)
     
     if question == "":
         sys.exit()
-    
-    elif answers == 1:
-        print "It is certain"
-    
-    elif answers == 2:
-        print "Outlook good"
-    
-    elif answers == 3:
-        print "You may rely on it"
-    
-    elif answers == 4:
-        print "Ask again later"
-    
-    elif answers == 5:
-        print "Concentrate and ask again"
-    
-    elif answers == 6:
-        print "Reply hazy, try again"
-    
-    elif answers == 7:
-        print "My reply is no"
-    
-    elif answers == 8:
-        print "My sources say no"
+    else:
+        print(ansList[answers])
