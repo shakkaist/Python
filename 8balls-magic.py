@@ -2,7 +2,7 @@
 import sys
 import random
 #how to improve such if else logic with contineous QA?
-ans = True
+ans = True # This statement declares variable "ans" as True
 
 while ans:
     question = raw_input("Ask the magic 8 ball a question: (press enter to quit) ")
