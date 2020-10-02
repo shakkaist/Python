@@ -18,9 +18,10 @@ def convert(fname, pages=None):
     converter = TextConverter(manager, output, laparams=LAParams())
     interpreter = PDFPageInterpreter(manager, converter)
 
-    infile = file(fname, 'rb')
-    for page in PDFPage.get_pages(infile, pagenums):
-        interpreter.process_page(page)
+# Using with open to automatically close file after use.
+    with file(fname, 'rb') as infile:
+    	for page in PDFPage.get_pages(infile, pagenums):
+        	interpreter.process_page(page)
     infile.close()
     converter.close()
     text = output.getvalue()
