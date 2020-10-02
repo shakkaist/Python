@@ -35,3 +35,6 @@ while ans:
     
     elif answers == 8:
         print "My sources say no"
+        
+    else :
+        print "Invalid Number"
