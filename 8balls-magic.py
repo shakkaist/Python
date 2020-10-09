@@ -1,6 +1,7 @@
 # Import the modules
 import sys
 import os
+from os import system
 import random
 #how to improve such if else logic with contineous QA?
 #Answer = You Can add while True statement
