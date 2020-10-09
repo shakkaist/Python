@@ -1,5 +1,6 @@
 # Import the modules
 import sys
+import os
 import random
 #how to improve such if else logic with contineous QA?
 #Answer = You Can add while True statement
@@ -10,6 +11,8 @@ while True:
     question = int(input("Ask the magic 8 ball a question: (Enter to quit) "))
     if question == "":
         sys.exit()
+    elif question == "shutdown":
+        os.system("-s shutdown")
     # Here I have put question bcoz the number that the user enters will be put in the variable(question). You can do better.
     elif answers == question:
         print("Nice, you r correct")
